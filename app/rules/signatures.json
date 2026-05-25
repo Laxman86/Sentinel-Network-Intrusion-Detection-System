@@ -1,0 +1,8 @@
+{
+  "malicious_ips": [],
+  "blacklisted_ports": [
+    23,
+    2323
+  ],
+  "suspicious_dns_names": []
+}

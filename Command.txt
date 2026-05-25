@@ -1,0 +1,3 @@
+cd C:\ALL\MSC Cyber Security\Minor_Project\nids_project\nids_project
+python -m app.nids_main
+python -m app.run_gui

@@ -1,0 +1,6 @@
+time,severity,type,src,dst,details
+2026-05-11T07:53:54.107026Z,HIGH,ARP_SPOOF,08:00:27:e2:5b:62,192.168.56.100,"{""mode"": ""multiple-macs"", ""ip"": ""192.168.56.100"", ""macs_seen"": [""08:00:27:d1:f8:5d"", ""08:00:27:e2:5b:62""], ""max_macs_per_ip"": 1}"
+2026-05-11T07:55:00.737556Z,HIGH,SYN_FLOOD,192.168.56.102,192.168.56.1,"{""syn_in_window"": 100, ""ack_in_window"": 0, ""window_sec"": 5, ""ack_to_syn_ratio"": 0.0, ""target_port"": 445}"
+2026-05-11T07:55:05.738454Z,HIGH,SYN_FLOOD,192.168.56.102,192.168.56.1,"{""syn_in_window"": 2597, ""ack_in_window"": 0, ""window_sec"": 5, ""ack_to_syn_ratio"": 0.0, ""target_port"": 445}"
+2026-05-11T07:55:10.739180Z,HIGH,SYN_FLOOD,192.168.56.102,192.168.56.1,"{""syn_in_window"": 1999, ""ack_in_window"": 0, ""window_sec"": 5, ""ack_to_syn_ratio"": 0.0, ""target_port"": 445}"
+2026-05-11T07:55:15.741488Z,HIGH,SYN_FLOOD,192.168.56.102,192.168.56.1,"{""syn_in_window"": 1613, ""ack_in_window"": 0, ""window_sec"": 5, ""ack_to_syn_ratio"": 0.0, ""target_port"": 445}"

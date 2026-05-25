@@ -1,0 +1,35 @@
+{
+  "interface": "auto",
+  "bpf_filter": "arp or icmp or (udp port 53) or (tcp port 53)",
+  "log_dir": "logs",
+  "thresholds": {
+    "port_scan": {
+      "window_sec": 10,
+      "distinct_ports": 20,
+      "min_syn_ratio": 0.6
+    },
+    "syn_flood": {
+      "window_sec": 5,
+      "syn_per_src": 200,
+      "ack_expect_ratio": 0.05
+    },
+    "arp_spoof": {
+      "max_macs_per_ip": 1,
+      "window_sec": 60,
+      "repeat_gratuitous_limit": 5
+    },
+    "dns_spoof": {
+      "authorized_dns_servers": [
+        "192.168.1.1",
+        "fe80::1",
+        "8.8.8.8",
+        "1.1.1.1"
+      ],
+      "track_ttl_anomaly": false
+    },
+    "icmp_sweep": {
+      "window_sec": 10,
+      "distinct_targets": 15
+    }
+  }
+}
