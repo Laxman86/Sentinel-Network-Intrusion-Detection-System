@@ -41,6 +41,27 @@ pip install -r requirements.txt
 python code/nids_main.py --iface <iface> --log-dir logs
 ```
 
+## System Architecture & Diagrams
+
+### 1. High-Level System Architecture
+![System Architecture Diagram](assets/System%20Architecture%20Diagram.png)
+
+---
+
+### 2. Detection Logic & Sequence Flow
+
+| Detection Logic Flowchart | Incident Response Sequence Diagram |
+| :---: | :---: |
+| ![Flowchart Diagram](assets/Flowchart%20Diagram.png) | ![Sequence Diagram of Intrusion Detection Process](assets/Sequence%20Diagram%20of%20Intrusion%20Detection%20Process.png) |
+
+---
+
+### 3. Structural & Functional Modeling
+
+| System Class Diagram | Actor Use Case Diagram |
+| :---: | :---: |
+| ![Class Diagram of the Proposed Network Intrusion Detection System](assets/Class%20Diagram%20of%20the%20Proposed%20Network%20Intrusion%20Detection%20System.png) | ![Use Case Diagram of the Network Intrusion Detection System](assets/Use%20Case%20Diagram%20of%20the%20Network%20Intrusion%20Detection%20System.png) |
+
 ## Outputs
 Alerts -> `logs/alerts.jsonl` and `logs/alerts.csv`
 
