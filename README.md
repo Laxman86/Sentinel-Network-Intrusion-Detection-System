@@ -15,4 +15,21 @@ python code/nids_main.py --iface <iface> --log-dir logs
 ## Outputs
 Alerts -> `logs/alerts.jsonl` and `logs/alerts.csv`
 
+## Project Showcase
+
+### SentinelNIDS GUI Dashboard
+![SentinelNIDS Dashboard](assets/gui_dashboard.png)
+
+### Real-Time Attack Simulation & Detection
+![Attack Simulation](assets/attack_simulation.png)
+
+### Modular Code Architecture
+![Project Structure](assets/project_structure.png)
+
+### Structured Alert Logs (`alerts.jsonl`)
+![Alert Logs](assets/alert_logs.png)
+
+### VirtualBox Host-Only Network Setup
+![Network Configuration](assets/vbox_network_config.png)
+
 Generated: 2026-01-15 08:29
