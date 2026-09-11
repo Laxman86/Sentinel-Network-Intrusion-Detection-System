@@ -1,5 +1,12 @@
 # Network Intrusion Detection System (NIDS) — Minor Project
 
+## Tech Stack
+
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=flat&logo=python)
+![Scapy](https://img.shields.io/badge/Traffic%20Analysis-Scapy-red?style=flat)
+![Tkinter](https://img.shields.io/badge/GUI-Tkinter-green?style=flat)
+![VirtualBox](https://img.shields.io/badge/Lab-VirtualBox%20%2B%20Kali-orange?style=flat&logo=virtualbox)
+
 ## Author & Acknowledggments
 
 * **Author:** Laxman Narvenkar
@@ -14,20 +21,6 @@
 * **Required Libraries:** `scapy`, `matplotlib`, `tkinter`
 * **Driver Requirements:** Npcap (Windows) or root access (Linux) for raw packet capturing
 
-## Tech Stack
-
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=flat&logo=python)
-![Scapy](https://img.shields.io/badge/Traffic%20Analysis-Scapy-red?style=flat)
-![Tkinter](https://img.shields.io/badge/GUI-Tkinter-green?style=flat)
-![VirtualBox](https://img.shields.io/badge/Lab-VirtualBox%20%2B%20Kali-orange?style=flat&logo=virtualbox)
-
-## Future Roadmap
-
-- [ ] Add machine learning model integration for anomaly-based detection.
-- [ ] Implement automated email / Webhook alerts for `HIGH` severity threats.
-- [ ] Support PCAP file upload for offline forensic analysis.
-
-
 
 ## Run (one-click)
 - **Windows:** double-click `run_nids.bat` (run Command Prompt as Administrator if capture fails)
@@ -40,6 +33,10 @@ source .venv/bin/activate  # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 python code/nids_main.py --iface <iface> --log-dir logs
 ```
+
+## Outputs
+Alerts -> `logs/alerts.jsonl` and `logs/alerts.csv`
+
 
 ## System Architecture & Diagrams
 
@@ -62,8 +59,7 @@ python code/nids_main.py --iface <iface> --log-dir logs
 | :---: | :---: |
 | ![Class Diagram of the Proposed Network Intrusion Detection System](assets/Class%20Diagram%20of%20the%20Proposed%20Network%20Intrusion%20Detection%20System.png) | ![Use Case Diagram of the Network Intrusion Detection System](assets/Use%20Case%20Diagram%20of%20the%20Network%20Intrusion%20Detection%20System.png) |
 
-## Outputs
-Alerts -> `logs/alerts.jsonl` and `logs/alerts.csv`
+
 
 ## Project Showcase
 
@@ -81,5 +77,12 @@ Alerts -> `logs/alerts.jsonl` and `logs/alerts.csv`
 
 ### VirtualBox Host-Only Network Setup
 ![Network Configuration](assets/vbox_network_config.png)
+
+
+## Future Roadmap
+
+- [ ] Add machine learning model integration for anomaly-based detection.
+- [ ] Implement automated email / Webhook alerts for `HIGH` severity threats.
+- [ ] Support PCAP file upload for offline forensic analysis.
 
 Generated: 2026-01-15 08:29
