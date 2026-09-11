@@ -1,5 +1,34 @@
 # Network Intrusion Detection System (NIDS) — Minor Project
 
+## Author & Acknowledggments
+
+* **Author:** Laxman Narvenkar
+* **Degree:** M.Sc. Cyber Security
+* **Institution:** National Forensic Sciences University (NFSU)
+* **Project Type:** Academic Minor Project
+
+## System Requirements
+
+* **Operating System:** Windows 10/11 or Linux (Kali / Ubuntu)
+* **Python Version:** Python 3.10 or higher
+* **Required Libraries:** `scapy`, `matplotlib`, `tkinter`
+* **Driver Requirements:** Npcap (Windows) or root access (Linux) for raw packet capturing
+
+## Tech Stack
+
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=flat&logo=python)
+![Scapy](https://img.shields.io/badge/Traffic%20Analysis-Scapy-red?style=flat)
+![Tkinter](https://img.shields.io/badge/GUI-Tkinter-green?style=flat)
+![VirtualBox](https://img.shields.io/badge/Lab-VirtualBox%20%2B%20Kali-orange?style=flat&logo=virtualbox)
+
+## Future Roadmap
+
+- [ ] Add machine learning model integration for anomaly-based detection.
+- [ ] Implement automated email / Webhook alerts for `HIGH` severity threats.
+- [ ] Support PCAP file upload for offline forensic analysis.
+
+
+
 ## Run (one-click)
 - **Windows:** double-click `run_nids.bat` (run Command Prompt as Administrator if capture fails)
 - **Linux/macOS:** `bash run_nids.sh` (use `sudo bash run_nids.sh` if capture fails)
