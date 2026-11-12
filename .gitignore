@@ -1,0 +1,28 @@
+# Project-specific directories
+deliverables/
+logs/
+logs_newtest/
+logss/
+*.log
+
+# Virtual Environment (CRITICAL to exclude)
+.venv/
+venv/
+env/
+
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables & secrets (if any exist inside app/)
+.env
+.env.*
+
+# IDE / Editor settings
+.vscode/
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
